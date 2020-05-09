@@ -1,6 +1,0 @@
-<application>
-  <component name="DimensionService">
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="463" />
-    <location key="IDE.errors.dialog.0.0.1920.1080" x="548" y="205" />
-  </component>
-</application>
