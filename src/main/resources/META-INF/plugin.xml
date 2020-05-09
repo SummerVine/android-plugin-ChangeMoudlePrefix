@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.ygl.change</id>
+    <name>demo</name>
+    <vendor email="yinguoliang1@jd.com" url="http://www.jd.com">京东商场</vendor>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="com.ygl.change.ChangeMoudlePrefix" class="com.ygl.change.ChangeMoudlePrefix"
+                text="ChangeMoudlePrefix" description="批量修改组件下的资源文件前缀名">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="meta 1" second-keystroke="meta 2"/>
+        </action>
+    </actions>
+</idea-plugin>
